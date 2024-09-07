@@ -1,0 +1,89 @@
+body {
+    border: none;
+    text-align: center;
+    background-color: rgb(220, 218, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Centraliza o conteúdo verticalmente */
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    font-size: 45px;
+    color:#0a002d ;
+}
+
+#meio {
+    position: absolute;
+    top: calc(50% - 50px); /* Ajuste '50px' para a quantidade que você deseja subir */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.scroll {
+    overflow-y: auto;
+    height: 300px; 
+    width: 60%; 
+    margin-left: 20%; 
+    margin-top: 1%;
+    padding: 0; 
+}
+
+input {
+    padding: 8px;
+    border: 10px solid white;
+    border-radius: 100px;
+    margin-top: auto;
+    width: 400px;
+}
+
+button {
+    background-color: #1a0077;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 200px;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1px 0;
+    position: absolute; /* Posiciona o footer no fundo */
+    bottom: 0; /* Garante que o footer fique na parte inferior */
+}
+
+.pesquisa {
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 10px; /* Reduz a margem superior para diminuir o espaçamento */
+    width: calc(100% - 20px); /* Aumenta a largura das seções para ocupar mais espaço */
+    margin-left: 0; /* Remove a margem para aproximar do scroll */
+    text-align: start;
+}
+
+h2 {
+    margin-left: 10px; /* Reduz a margem à esquerda para aproximar do início */
+    margin-top: 5px; /* Reduz a margem superior */
+}
+
+.paragrafo {
+    margin: 4px 10px; 
+    height: 80px;
+}
+
+.a {
+    margin-left: 15px;
+}
