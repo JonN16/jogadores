@@ -130,5 +130,17 @@ let dados = [
         descricao: "Diego Maradona foi um dos maiores jogadores de futebol da história. Conhecido por suas habilidades extraordinárias e pelo 'Gol do Século', ele é uma lenda do esporte.",
         link: "https://pt.wikipedia.org/wiki/Diego_Maradona",
         detalhes: "Jogador de Futebol | Masculino | Argentino | Clubes: Napoli, Barcelona | Prêmios: Campeão da Copa do Mundo 1986"
+    },
+        {
+        nome: "Pelé",
+        descricao: "Pelé é amplamente considerado um dos maiores jogadores de futebol de todos os tempos. Sua habilidade, técnica e visão de jogo revolucionaram o esporte. Ele é o único jogador a vencer três Copas do Mundo e tem uma carreira cheia de conquistas e recordes.",
+        link: "https://pt.wikipedia.org/wiki/Pel%C3%A9",
+        detalhes: "Jogador de Futebol | Masculino | Brasileiro | Clubes: Santos, New York Cosmos | Prêmios: 3 Copas do Mundo (1958, 1962, 1970)"
+    },
+    {
+        nome: "Dede",
+        descricao: "Dede é um dos maiores zagueiros da história do futebol brasileiro, conhecido por sua habilidade defensiva e por ter sido uma peça fundamental no Vasco da Gama. Ele foi um dos grandes nomes do futebol brasileiro nas décadas de 1950 e 1960.",
+        link: "https://pt.wikipedia.org/wiki/Dede_(futebolista)",
+        detalhes: "Jogador de Futebol | Masculino | Brasileiro | Clube: Vasco da Gama | Prêmios: Campeão da Copa Libertadores (1956, 1958) e Campeão Brasileiro (1958)"
     }
 ];
